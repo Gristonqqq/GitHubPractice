@@ -22,7 +22,6 @@ namespace Test
 
         private void InitializeComboBox()
         {
-
             comboBox1.Items.Add(3);
             comboBox1.Items.Add(4);
             comboBox1.Items.Add(5);
@@ -132,6 +131,13 @@ namespace Test
 
         private void BFS(int startVertex)
         {
+            // Перевірка на коректність стартової вершини
+            if (startVertex < 0 || startVertex >= vertexCount)
+            {
+                MessageBox.Show("Неправильна початкова вершина!");
+                return;
+            }
+
             // Створення масиву для відстеження відвіданих вершин
             bool[] visited = new bool[vertexCount];
             // Створення черги для обробки вершин у процесі обходу
