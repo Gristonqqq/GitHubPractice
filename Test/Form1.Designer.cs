@@ -46,11 +46,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(483, 15);
+            this.label1.Location = new System.Drawing.Point(473, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(236, 16);
+            this.label1.Size = new System.Drawing.Size(246, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Візуалізація графа з лабораторної";
+            this.label1.Text = "Візуалізація тестового графа номер";
             // 
             // button1
             // 
